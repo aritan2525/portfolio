@@ -46,6 +46,7 @@ header {
 .global-nav {
     display: flex;
     justify-content: flex-end;
+    margin-right: 10%;
 }
 
 .global-nav li {
@@ -502,12 +503,12 @@ summary:hover {
     }
 
     .logo {
-        margin: 60px auto 0 aut0;
+        margin: 60px auto 0 auto;
         text-align: center;
     }
 
     .global-nav {
-        margin-top: 40px;
+        margin: 40px auto 0 auto;
         text-align: center;
         justify-content: center;
     }
