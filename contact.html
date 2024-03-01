@@ -33,23 +33,21 @@
                     <div id="contact-main">
                         <img src="images/contact.JPG" alt="ビーチ" id="contact-img">
                         <div class="form">
-                            <form name="contact-portfolio" method="POST" netlify>
+                            <form name="contact" method="POST" netlify>
                                 <dl>
                                     <dt><span class="required">お名前</span></dt>
-                                    <dd><input type="text" name="name" required autocomplete="name"></dd>
+                                    <dd><input type="text" name="name" class="name" required autocomplete="name"></dd>
                                     <dt><span class="required">メールアドレス</span></dt>
-                                    <dd><input type="email" name="email" required autocomplete="email"></dd>
+                                    <dd><input type="email" name="email" class="email" required autocomplete="email"></dd>
                                     <dt>お電話番号</dt>
-                                    <dd><input type="tel" name="tel" autocomplete="tel"></dd>
-                                    <dt>お問合せ種別</dt>
-                                    <dd>
-                                        <select name="role[]" multiple>
-                                            <option value="その他お問い合わせ">その他お問い合わせ</option>
-                                            <option value="質問">質問</option>
-                                            <option value="アドバイス">アドバイス</option>
-                                            <option value="お褒めの言葉">感想</option>
-                                        </select>
-                                    </dd>
+                                    <dd><input type="tel" name="tel" class="tel" autocomplete="tel"></dd>
+                                    <label for="contact-type">お問い合わせ種別</label>
+                                    <select id="contact-type" name="contact-type" class="type">
+                                        <option value="その他お問い合わせ">その他お問い合わせ</option>
+                                         <option value="質問">質問</option>
+                                         <option value="アドバイス">アドバイス</option>
+                                         <option value="お褒めの言葉">感想</option>
+                                     </select>
                                     <dt>ご希望のご連絡方法</dt>
                                     <dd>
                                         <input type="radio" name="contact" value="Eメール">Eメール
