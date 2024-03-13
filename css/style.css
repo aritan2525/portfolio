@@ -339,6 +339,10 @@ table {
 }
 
 #qanda #wrap {
+    height: fit-content;
+}
+
+#qanda .content {
     height: 100vh;
 }
 
@@ -638,10 +642,6 @@ summary:hover {
 
     #portfolio .btn a {
         margin: 30% 25%;
-    }
-
-    #qanda #wrap {
-        height: fit-content;
     }
 
     #qanda .content {
